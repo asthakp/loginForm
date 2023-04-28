@@ -1,0 +1,39 @@
+form {
+  margin: 40px auto;
+  max-width: 600px;
+  background-color: bisque;
+  padding: 20px;
+  font-size: 20px;
+}
+h2 {
+  text-align: center;
+}
+.form-section {
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  height: 20px;
+}
+
+.submit,
+.reset {
+  width: 250px;
+  margin-right: 10px;
+  padding: 5px 7px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.form-section {
+  margin-bottom: 10px;
+}
+
+.submit {
+  background-color: green;
+}
+.reset {
+  background-color: rgb(205, 35, 35);
+}
